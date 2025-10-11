@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Facebook_Logo_%282023%29.png/240px-Facebook_Logo_%282023%29.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Connect with friends, family and people who share the same interests as you.",
+    "size": 78,
+    "reviews": 135123456,
+    "ratingAvg": 3.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 45123456 },
+      { "name": "2 star", "count": 15000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 37000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
+    "size": 52,
+    "reviews": 145876543,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 5876543 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 3,
+    "description": "A FREE messaging and video calling app. It's simple, reliable, and private.",
+    "size": 41,
+    "reviews": 180321987,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20321987 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 37000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/240px-TikTok_logo.svg.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "TikTok is THE destination for mobile videos. On TikTok, short-form videos are exciting, spontaneous, and genuine.",
+    "size": 95,
+    "reviews": 55432109,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3432109 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 36000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/240px-X_logo_2023.svg.png",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 5,
+    "description": "The everything app. See what's happening in the world right now.",
+    "size": 65,
+    "reviews": 23456789,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2056789 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/240px-Snapchat_logo.svg.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 6,
+    "description": "Share the moment! Express yourself with Lenses, Filters, Bitmoji and more.",
+    "size": 72,
+    "reviews": 32109876,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4109876 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/240px-Spotify_icon.svg.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Listen to the songs, playlists, podcasts, and artists you love.",
+    "size": 38,
+    "reviews": 27890123,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1890123 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/240px-Netflix_2015_logo.svg.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 8,
+    "description": "Looking for the most talked about TV shows and movies from the around the world?",
+    "size": 25,
+    "reviews": 15678901,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1178901 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/240px-YouTube_social_white_square_%282017%29.svg.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Watch, stream, and discover what the world is watching with the YouTube app.",
+    "size": 40,
+    "reviews": 123456789,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15456789 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Maps_icon_%282020%29.svg/240px-Google_Maps_icon_%282020%29.svg.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Navigate your world faster and easier with Google Maps.",
+    "size": 55,
+    "reviews": 18901234,
+    "ratingAvg": 4.0,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2401234 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/240px-Gmail_icon_%282020%29.svg.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "The official Gmail app brings the best of Gmail to your Android phone or tablet.",
+    "size": 30,
+    "reviews": 10123456,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 923456 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/240px-Uber_logo_2018.svg.png",
+    "title": "Uber - Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 12,
+    "description": "Uber is a ridesharing app for fast, reliable rides in minutes—day or night.",
+    "size": 85,
+    "reviews": 12345678,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1345678 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/240px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 13,
+    "description": "Book homes, experiences, and places to go. Unforgettable travel experiences start with Airbnb.",
+    "size": 110,
+    "reviews": 1876543,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 76543 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/240px-Amazon_icon.svg.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 14,
+    "description": "Shop millions of items, never miss a deal, compare prices and reviews.",
+    "size": 60,
+    "reviews": 7654321,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 454321 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "id": 15,
+    "description": "Find jobs, build your network, and connect with professionals.",
+    "size": 48,
+    "reviews": 3456789,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 256789 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pinterest-logo.png/240px-Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 16,
+    "description": "Looking for creative ideas? Whether you’re planning your next big travel adventure, searching for home design concepts, or looking for fashion & fitness tips.",
+    "size": 28,
+    "reviews": 11234567,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 634567 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 7700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Discord_logo.svg/240px-Discord_logo.svg.png",
+    "title": "Discord: Talk, Chat & Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 17,
+    "description": "Discord is your place to talk. Create a home for your communities and friends, where you can stay close and have fun over text, voice, and video.",
+    "size": 75,
+    "reviews": 5678901,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 378901 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/240px-Telegram_logo.svg.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 18,
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 33,
+    "reviews": 14567890,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1067890 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/240px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 19,
+    "description": "Chat, meet, call, and collaborate all in one place with Microsoft Teams.",
+    "size": 88,
+    "reviews": 3210987,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 110987 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zoom_Communications_Logo.svg/240px-Zoom_Communications_Logo.svg.png",
+    "title": "Zoom - One Platform to Connect",
+    "companyName": "zoom.us",
+    "id": 20,
+    "description": "Work from anywhere with a single app that combines team chat, phone, whiteboard, meetings, and more.",
+    "size": 92,
+    "reviews": 2345678,
+    "ratingAvg": 4.0,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 345678 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  }
+]
