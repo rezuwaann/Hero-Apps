@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 
 const AllApps = () => {
 
     const apps = useLoaderData();
-    console.log(apps)
+  
+    const [allApps,setAllApps]=useState([apps])
+
+// console.log(apps)
+
+    // console.log('all apps',allApps)
     return (
         <div className='bg-gray-100'>
             <div className='text-center p-20'>
@@ -13,7 +18,7 @@ const AllApps = () => {
                 <p className='mt-4'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
 
-            <div className='flex justify-between max-w-7xl mx-auto'>
+            <div className='flex justify-between max-w-7xl mx-auto underline'>
                 <p className='font-semibold'>({apps.length}) Apps Found</p>
                 <div>
                     <label className="input">
@@ -34,9 +39,9 @@ const AllApps = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 my-10 mx-auto'>
                 {
-                    apps.map(app=> <SingleApp key={app.id} app={app}></SingleApp>)
+                    allApps[0].map(app=> <SingleApp key={app.id} app={app}> </SingleApp>)
                 }
             </div>
         </div>
