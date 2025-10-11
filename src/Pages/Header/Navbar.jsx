@@ -13,7 +13,7 @@ const Homes = () => {
 
             <li><a href='/'>Home</a></li>
             <li><a href='/apps'>Apps</a></li>
-            <li><a>Installation</a></li>
+            <li><a href='/installed'>Installation</a></li>
         </>
 
     return (

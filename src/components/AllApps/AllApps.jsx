@@ -18,7 +18,7 @@ const AllApps = () => {
                 <p className='mt-4'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
 
-            <div className='flex justify-between max-w-7xl mx-auto underline'>
+            <div className='flex justify-between  mx-20 underline'>
                 <p className='font-semibold'>({apps.length}) Apps Found</p>
                 <div>
                     <label className="input">

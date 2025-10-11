@@ -24,7 +24,7 @@ const SingleApp = ({ app }) => {
 
 
                     <div className=" flex justify-between">
-                        <div className="flex items-center gap-2 px-3 py-2 rounded-2xl bg-gray-200 text-[#00D390]"> <Download />{app.downloads}</div>
+                        <div className="flex items-center gap-2 px-3 py-2 rounded-2xl bg-gray-200 text-[#00D390]"> <Download />{app.downloads/10000000}M</div>
                         <div className="flex items-center gap-2 px-3 py-2 rounded-2xl bg-gray-200 text-[#FF8811]"><Star className=' fill-current' />{app.ratingAvg}</div>
                     </div>
                 </div>
