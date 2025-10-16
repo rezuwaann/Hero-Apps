@@ -14,7 +14,7 @@ const addToStoreDB = (id) => {
     const installedApps = getInstalledApp()
 
    
-        installedApps.push(id)
+        installedApps.push(String(id))
         const installedStr=JSON.stringify(installedApps)
         localStorage.setItem("installed",installedStr )
         

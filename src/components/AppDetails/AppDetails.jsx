@@ -43,6 +43,7 @@ const AppDetails = () => {
     const { title, image, companyName, size, description, ratingAvg, reviews, downloads } = singleApp;
 
 
+
     const handleInstall = (myId) => {
         console.log('installing', myId)
         toast(`${title} app is installed successfully in your device`)
@@ -52,14 +53,7 @@ const AppDetails = () => {
         return
     }
 
-    // const alreadyInstalled = (id) => {
-    //     if (allInstalledApp.includes(id)) {
-    //         console.log('already installed')
-    //         setInstalled(true)
-    //         return true;
-    //     }
-    //     else { return false; }
-    // }
+   
 
 
     return (
@@ -67,7 +61,7 @@ const AppDetails = () => {
 
 
             <div>
-                <div className='flex items-center  gap-10 px-40 py-10'>
+                <div className='flex flex-col lg:flex-row items-center  gap-10 px-40 py-10'>
                     <div>
                         <img className=' w-[350px] p-10' src={image} alt="" />
                     </div>
