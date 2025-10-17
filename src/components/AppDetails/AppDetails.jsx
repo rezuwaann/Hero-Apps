@@ -3,29 +3,39 @@ import { useLoaderData, useParams } from 'react-router';
 import { Download, MessageSquareHeart } from 'lucide-react';
 import { Star } from 'lucide-react';
 import { Link } from 'react-router';
-import { BarChart, Bar, XAxis, YAxis } from 'recharts';
+
 import { useState } from 'react';
 import AppNotFound from '../AppNotFound/AppNotFound';
 import { addToStoreDB, getInstalledApp } from '../../utility/addToDB';
 import { useEffect } from 'react';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
 
+import {
+    ComposedChart,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    ResponsiveContainer,
+} from 'recharts';
+
 const AppDetails = () => {
 
     const id = useParams()
     const apps = useLoaderData();
 
-    const allInstalledApp = getInstalledApp();
     const [installed, setInstalled] = useState(false);
     // const [appNotFound, setAppNotFound] = useState(false);
 
     const myId = parseInt(id.id)
+    const allInstalledApp = getInstalledApp();
+ 
     useEffect(() => {
-        if (allInstalledApp.includes(myId)) {
+        if (allInstalledApp.includes(String(myId))) {
             setInstalled(true)
         }
     }, [allInstalledApp, myId])
-
 
 
 
@@ -40,9 +50,10 @@ const AppDetails = () => {
     const singleApp = apps.find(app => app.id === myId)
     // console.log(singleApp)
 
-    const { title, image, companyName, size, description, ratingAvg, reviews, downloads } = singleApp;
+    const { title, image, companyName, size, description, ratingAvg, ratings, reviews, downloads } = singleApp;
 
 
+    const data = ratings;
 
     const handleInstall = (myId) => {
         console.log('installing', myId)
@@ -50,10 +61,9 @@ const AppDetails = () => {
         addToStoreDB(myId);
         setInstalled(true)
 
-        return
+        return;
     }
 
-   
 
 
     return (
@@ -61,7 +71,7 @@ const AppDetails = () => {
 
 
             <div>
-                <div className='flex flex-col lg:flex-row items-center  gap-10 px-40 py-10'>
+                <div className='flex flex-col lg:flex-row items-center  gap-10 px-20 lg:px-40 py-10'>
                     <div>
                         <img className=' w-[350px] p-10' src={image} alt="" />
                     </div>
@@ -121,12 +131,39 @@ const AppDetails = () => {
                 </div>
 
                 <div className="divider"></div>
-                <div>
+
+                <div className='flex flex-col mx-10 gap-5'>
+                    <h1 className="font-semibold text-2xl text-left">Ratings</h1>
+
+                    <div className='w-full h-100'>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <ComposedChart
+                                layout="vertical"
+
+                                data={data}
+                                margin={{
+                                    top: 20,
+                                    right: 20,
+                                    bottom: 20,
+                                    left: 20,
+                                }}
+                            >
+                                <CartesianGrid stroke="#f5f5f5" />
+                                <XAxis type="number" />
+                                <YAxis dataKey="name" type="category" scale="band" />
+                                <Tooltip />
+
+
+                                <Bar dataKey="count" barSize={30} fill="#FF8811" />
+
+                            </ComposedChart>
+                        </ResponsiveContainer>
+                    </div>
 
                 </div>
                 <div className="divider"></div>
 
-                <div className='px-20'>
+                <div className='px-20 py-10'>
                     <h5 className='text-xl font-semibold'>Description</h5>
                     <p>{description}</p>
                 </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 import AppList from './AppList';
@@ -34,14 +34,14 @@ const AllApps = () => {
     // console.log('all apps',allApps)
 
     return (
-        <div className='bg-gray-100 h-screen'>
+        <div className='bg-gray-100 '>
             <div className='text-center p-20'>
                 <h1 className='font-bold text-5xl'>Our All Applications</h1>
                 <p className='mt-4'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
 
-            <div className='flex justify-between  mx-20 underline'>
-                <p className='font-semibold'>({apps.length}) Apps Found</p>
+            <div className='flex justify-between  mx-10 underline'>
+                <p className='font-semibold text-lg'>({apps.length}) Apps Found</p>
                 <div>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

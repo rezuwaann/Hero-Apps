@@ -27,7 +27,8 @@ export const router = createBrowserRouter([
                     <span className="block loading loading-dots loading-xl"></span>
                     </div>}>
                     <Home></Home>
-                </Suspense>
+                </Suspense>,
+                loader: () => fetch('/appsData.json')
             },
             {
                 path: '/apps',
