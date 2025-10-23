@@ -61,14 +61,14 @@ const Installed = () => {
                 <h5 className='text-xl font-semibold'>{myInstalledApps.length} Apps Found</h5>
 
                 <div className="dropdown dropdown-end">
-                    <div tabIndex={0} role="button" className="btn m-1">Sorted By Size<LucideArrowDown></LucideArrowDown></div>
+                    <div tabIndex={0} role="button" className="btn py-5">Sorted By Size<LucideArrowDown></LucideArrowDown></div>
                     <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                         <li onClick={() => handleSort('Low')}><a>Low - High</a></li>
                         <li onClick={() => handleSort('High')}><a>High - Low</a></li>
                     </ul>
                 </div>
             </div>
-            <div className='mx-20'>
+            <div className='lg:mx-20 mx-2'>
                 {
                     myInstalledApps.map(app => <InstalledSingleApp key={app.id} app={app} handleUninstall={handleUninstall} ></InstalledSingleApp>)
                 }

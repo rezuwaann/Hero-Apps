@@ -5,11 +5,11 @@ import { Link } from 'react-router';
 
 const InstalledSingleApp = ({ app,handleUninstall }) => {
     return (
-        <div className='h-[112px] bg-white p-5 rounded-md mt-3 shadow-lg flex justify-between items-center'>
+        <div className='h-[112px] bg-white p-2 md:p-5 rounded-md mt-3 shadow-lg flex justify-between items-center'>
 
-            <div className='flex items-center gap-5'>
+            <div className='flex items-center gap-1 lg:gap-5'>
                <Link to={`/appdetails/${app.id}`}>
-                <img className='h-20 w-20' src={app.image} alt="" /></Link>
+                <img className='md:h-20 md:w-20 h-10 w-10' src={app.image} alt="" /></Link>
                 <div>
                    <Link to={`/appdetails/${app.id}`}>
                     <h5 className='font-semibold mb-2'>{app.title}</h5></Link>

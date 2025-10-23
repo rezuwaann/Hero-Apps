@@ -8,19 +8,19 @@ const TrustedUsers = () => {
             </div>
 
             <div className='flex flex-col lg:flex-row gap justify-center gap-6 mt-10'>
-                <div className='px-15'>
+                <div className='px-15 flex flex-col items-center gap-2'>
                     <p>Total Downloads</p>
                     <h1 className='font-extrabold text-6xl'>29.6M</h1>
                     <p>21% more than last month</p>
                 </div>
 
-                <div className='px-15'>
+                <div className='px-15 flex flex-col items-center gap-2'>
                     <p>Total Reviews</p>
                     <h1 className='font-extrabold text-6xl'>906K</h1>
                     <p>46% more than last month</p>
                 </div>
 
-                <div className='px-15'>
+                <div className='px-15 flex flex-col items-center gap-2'>
                     <p>Active Apps</p>
                     <h1 className='font-extrabold text-6xl'>132+</h1>
                     <p>31 more will Launch</p>
